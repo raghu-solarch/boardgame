@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/careerbytecode/boardgame.git'
+                git branch: 'main', url: 'https://github.com/raghu-solarch/boardgame.git'
             }
         }
         
