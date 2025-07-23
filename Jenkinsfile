@@ -41,7 +41,7 @@ pipeline {
         
         stage('Publish to Nexus') {
             steps {
-                withMaven(globalMavenSettingsConfig: 'maven-new-app', jdk: '', maven: '', mavenSettingsConfig: '', traceability: true) {
+                withMaven(globalMavenSettingsConfig: '', jdk: '', maven: '', mavenSettingsConfig: '', traceability: true) {
                     sh 'mvn deploy'
                 }               
             }
