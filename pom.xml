@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.javaproject</groupId>
 	<artifactId>Boardgame_project</artifactId>
-	<version>0.0.7-snapshots</version>
+	<version>0.0.7</version>
 	<name>Boardgame_project</name>
 	<description>Project for Spring Boot</description>
 	<packaging>jar</packaging>
@@ -120,11 +120,11 @@
 	 <distributionManagement>
         <repository>
             <id>maven-releases</id>
-            <url>http://172.190.29.90:8081/repository/maven-releases/</url>
+            <url>http://4.211.185.222:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>maven-snapshots</id>
-            <url>http://172.190.29.90:8081/repository/maven-snapshots/</url>
+            <url>http://4.211.185.222:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
